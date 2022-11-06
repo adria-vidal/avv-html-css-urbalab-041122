@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td {
+    font-weight: bold;
+}
+
+th {
+    font-size: 11px
+}
+
+tr td {
+    border: 3px ridge;
+
+}
+
+.center-green {
+    background-color: rgb(14, 255, 134);
+    text-align: center;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.aqua {
+    background-color: aqua;
+    padding-left: 0;
+}
+
+.rose-right {
+    background-color: rgb(255, 157, 242);
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+
+.text-red {
+    color: rgb(230, 21, 21);
+
+}
