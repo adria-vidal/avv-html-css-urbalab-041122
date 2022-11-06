@@ -1,5 +1,28 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td {
+    font-weight: bold;
+}
+
+th {
+    font-size: 11px
+}
+
+tr td {
+    border: 3px ridge;
+
+}
+
 .center-green {
-    background-color: greenyellow;
+    background-color: rgb(14, 255, 134);
+    text-align: center;
+}
+
+.centrar {
     text-align: center;
 }
 
@@ -16,24 +39,8 @@
     vertical-align: bottom;
 }
 
-table{
-    width: 100%;
-}
-td {
-    font-weight: bold;
-    
-
-}
 
 .text-red {
-    color: rgb(161, 10, 10);
-    
-}
+    color: rgb(230, 21, 21);
 
-th {
-    font-size: 11px
-}
-tr td{
-    border:  ridge;
-    
 }
