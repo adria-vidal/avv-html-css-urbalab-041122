@@ -1,0 +1,23 @@
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    z-index: 1;
+    
+}
+
+td {
+    text-align: center;
+    background-color: rgb(252, 239, 167);
+
+}
+
+td,
+th {
+    border: ridge;
+
+}
+img{
+    display: block;
+    margin: auto;
+}
