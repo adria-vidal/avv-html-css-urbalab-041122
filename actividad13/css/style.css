@@ -1,0 +1,39 @@
+.center-green {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.aqua {
+    background-color: aqua;
+    padding-left: 0;
+}
+
+.rose-right {
+    background-color: rgb(255, 157, 242);
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+table{
+    width: 100%;
+}
+td {
+    font-weight: bold;
+    
+
+}
+
+.text-red {
+    color: rgb(161, 10, 10);
+    
+}
+
+th {
+    font-size: 11px
+}
+tr td{
+    border:  ridge;
+    
+}
