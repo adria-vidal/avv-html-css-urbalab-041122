@@ -1,0 +1,10 @@
+td{
+    background: url(../img/fondo.jpg);
+}
+table{
+    width: 100%;
+    height: 50vh;
+}
+.textura{
+    background: url(../img/textura2.jpg);
+}
