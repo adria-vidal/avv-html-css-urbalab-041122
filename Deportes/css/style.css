@@ -1,0 +1,22 @@
+table tr:first-child{
+    background-color: rgb(2, 4, 95);
+    color: rgb(76, 220, 76);
+    text-align: center;
+    padding: 0 0.5em;
+
+}
+table tr:nth-child(2){
+    background-color: rgb(195, 255, 195);
+}
+table tr:nth-child(3){
+    background-color: rgba(0, 188, 0, 0.614);
+}
+table tr:last-child{
+    background-color: rgb(195, 255, 195);
+}
+th{
+    background-color: rgb(2, 4, 95);
+    color: rgb(76, 220, 76);
+    text-align: center;
+    padding: 0 0.5em;
+}
