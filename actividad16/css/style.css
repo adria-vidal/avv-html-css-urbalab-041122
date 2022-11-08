@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border-width: 3px;
+    border-spacing: 0;
+    border-color: rgb(243, 245, 111);
+    border-top-color: white;
+    border-left-color: white;
+    border-style: outset;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2) {
+    background-color: rgb(241, 178, 136);
+}
+
+tr:nth-child(3) {
+    background-color: rgb(255, 249, 170);
+}
+
+tr:first-child {
+    background-color: rgb(84, 182, 81);
+}
+
+tr {
+    color: rgb(105, 25, 25);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 233);
+
+}
+
+td {
+    /* background: url(../img/modelo-incons-til-con-las-patas-del-perro-garabato-estampado-de-animales-color-negro-y-rojo-fondo-vector-150638707.jpg) ;
+    background-size: auto; */
+    border: 3px ridge;
+}
