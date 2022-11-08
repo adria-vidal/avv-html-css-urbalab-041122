@@ -1,22 +1,47 @@
-table tr:first-child{
+.container{
+    border: 1px solid blue;
+}
+body{
+    background-color: bisque;
+}
+table {
+    border-width: 5px;
+    border-color: rgb(207, 195, 195);
+    border-top-color: white;
+    border-left-color: white;
+    border-style: outset;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table tr:first-child {
     background-color: rgb(2, 4, 95);
     color: rgb(76, 220, 76);
     text-align: center;
     padding: 0 0.5em;
+    border: 2px solid black;
+    border-collapse: collapse;
 
 }
-table tr:nth-child(2){
+
+table tr:nth-child(2) {
     background-color: rgb(195, 255, 195);
 }
-table tr:nth-child(3){
+
+table tr:nth-child(3) {
     background-color: rgba(0, 188, 0, 0.614);
 }
-table tr:last-child{
+
+table tr:last-child {
     background-color: rgb(195, 255, 195);
 }
-th{
-    background-color: rgb(2, 4, 95);
-    color: rgb(76, 220, 76);
-    text-align: center;
-    padding: 0 0.5em;
+
+td {
+    padding: 0.2em;
+    border-width: 2px ridge;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top-color: rgb(45, 58, 206);
+    border-left-color: rgb(45, 58, 206);
+    border-style: inset;
 }
