@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: bisque;
+
+}
+
+.nubes {
+    background: url(../img/nubes.png);
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+.nubes,
+.mario {
+    width: 100vw;
+}
+
+.middle_carretera {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.carretera_encima {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.carretera {
+    width: 100vw;
+    height: 1em;
+    background: url(../img/f01.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.mario {
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
