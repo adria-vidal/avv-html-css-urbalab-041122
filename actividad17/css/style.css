@@ -16,13 +16,14 @@ body {
 
 .cuadros {
     height: 25vh;
-    width: 25vw;
+    width: 20vw;
+    margin: 0 2em;
 
 
 }
 
 #A,
-#B1,
+#B2,
 #C,
 #D {
     background: url(../img/textura2.jpg);
@@ -35,7 +36,7 @@ body {
     align-items: center;
 }
 
-#B1 {
+#B2 {
     width: 80%;
     height: 80%;
 }
@@ -56,11 +57,11 @@ body {
 }
 
 
-#F {
-    background: url(../img/dh.jpg) no-repeat;
-}
+
 
 #F {
+    background: url(../img/dh.jpg) no-repeat;
+
     box-sizing: border-box;
     border: 10px solid whitesmoke;
 }
@@ -71,10 +72,12 @@ body {
     background-color: aliceblue;
 }
 
+
 #H {
     background: url(../img/dh_3.jpg) no-repeat;
 
 }
+
 
 #E,
 #F,
@@ -96,7 +99,7 @@ body {
 }
 
 #J {
-    background: linear-gradient(180deg, rgb(255, 255, 255),rgb(102, 59, 59), rgb(46, 10, 10),rgb(255, 255, 255))
+    background: linear-gradient(180deg, rgb(255, 196, 196),rgb(151, 107, 107),rgb(102, 59, 59), rgb(46, 10, 10),rgb(255, 255, 255))
 }
 
 #K {
@@ -104,4 +107,7 @@ body {
 }
 #L {
     background: linear-gradient(180deg, rgb(255, 255, 255,0), rgb(10, 61, 3))
+}
+div{
+    text-align: center;
 }
