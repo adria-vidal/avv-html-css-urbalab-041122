@@ -13,7 +13,7 @@ _El objetivo es implementar lo aprendido en clase y plasmarlo realizando las act
 
 ## Desplegar la web
 A través del link podemos acceder a todas las actividades realizadas
-[RETOS](https://adria-vidal.github.io/avv-html-css-urbalab-03112022/)
+[RETOS](https://adria-vidal.github.io/avv-html-css-urbalab-041122/)
 
 ## Versionado 📌
 
